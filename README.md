@@ -11,9 +11,20 @@ Ce projet fournit une interface en ligne de commande (CLI) simple et une bibliot
 pip install cryptography
 ```
 
-## Utilisation (CLI)
+## Utilisation
+### Interface Graphique (GUI)
 
-Vous pouvez utiliser le script `crypto_cli.py` pour accéder à toutes les fonctionnalités.
+Pour une utilisation plus conviviale, lancez l'interface graphique :
+
+```bash
+python crypto_gui.py
+```
+
+L'interface vous permet de choisir l'algorithme, de saisir du texte ou de charger un fichier, et de gérer vos clés RSA facilement.
+
+### Ligne de Commande (CLI)
+
+Vous pouvez également utiliser le script `crypto_cli.py` pour accéder à toutes les fonctionnalités via le terminal.
 
 ### Algorithmes Classiques
 

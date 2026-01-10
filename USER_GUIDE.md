@@ -1,6 +1,17 @@
 # Guide Utilisateur
 
-Ce guide explique les algorithmes pris en charge par l'outil Crypto Prog et comment les utiliser.
+Ce guide explique les algorithmes pris en charge par l'outil Crypto Prog et comment les utiliser via l'interface graphique ou la ligne de commande.
+
+## Interface Graphique (GUI)
+
+L'interface graphique (`crypto_gui.py`) offre une manière intuitive d'utiliser l'outil :
+
+1.  **Algorithme** : Sélectionnez la méthode de chiffrement en haut.
+2.  **Paramètres** : Les champs s'adaptent automatiquement (Décalage, Clé, etc.).
+3.  **Entrée** : Saisissez votre texte directement ou utilisez le bouton "Charger Fichier" pour lire un fichier texte.
+4.  **Actions** : Cliquez sur "CHIFFRER" ou "DÉCHIFFRER".
+5.  **Sortie** : Le résultat s'affiche en bas. Vous pouvez le sauvegarder dans un fichier avec le bouton "Sauvegarder Résultat".
+6.  **RSA Special** : Pour RSA, l'interface inclut un bouton "Générer Clés" pour créer facilement vos paires de clés.
 
 ## Algorithmes Classiques
 
